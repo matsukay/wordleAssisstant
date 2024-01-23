@@ -43,16 +43,5 @@ if __name__== "__main__":
     if len(sys.argv) >= 2 and len(sys.argv) <= 3:
         main()
     else:
-        print("usage ./wordleCheat <pattern> <letters>")
+        print("usage ./wordleAssistant <pattern> <letters>")
         sys.exit(0)
-    
-
-
-# Write clues as ab___
-# Use underscore for letters which are not sure
-# For letters that are included but not certain about position, write them consecutively, 'ab'
-# Can have either 2 or 3 arguments
-# py wordleCheat.py ch___
-# OR
-# py wordleCheat.py ch___ i
-
