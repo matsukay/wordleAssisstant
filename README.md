@@ -11,10 +11,10 @@ The first argument is used to specify the letters for which the position within 
 The second argument is reserved for letters which are known to be in the word, but their position within the word is unknown. These letters should be written consecutively, e.g., `ab`.
 
 ### Example 1:
-    py wordleCheat.py ch***
-    py wordleCheat.py ch###
+    py wordleAssistant.py ch***
+    py wordleAssistant.py ch###
 Both of the above can be used to find all 5 letter words where the first 2 letters are ch.
 
 ### Example 2:
-    py wordleCheat.py ch*** r
+    py wordleAssistant.py ch*** r
 Is used to find all 5 letter words where the first 2 letters are ch and also include the letter r in one of the empty spaces.
